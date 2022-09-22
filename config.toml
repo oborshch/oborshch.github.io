@@ -1,0 +1,361 @@
+# Page settings
+baseurl = ""
+languageCode = "en-us"
+title = "Oleksandr Borshch Resume"
+theme = "cv"
+#googleAnalytics = "UA-XXXXXXX-Y"
+
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+    description = "Oleksandr Borshch Resume"
+    author = "Oleksandr Borshch"
+
+    # Profile section
+    [params.profile]
+        name = "Oleksandr Borshch"
+        tagline = "Software Engineer"
+        avatar = "profile.jpg"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "location"
+        icon = "fa-location-arrow"
+        url = "#"
+        title = "Ukraine"
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: a.borsch@ukr.net"
+        title = "a.borsch@ukr.net"
+
+        [[params.contact.list]]
+        class = "telegram"
+        icon = "fa-paper-plane"
+        url = "//t.me/oleksandrborshch"
+        title = "@oleksandrborshch"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//coderlog.top"
+        title = "coderlog.top"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/oleksandr-borshch/"
+        title = "@oleksandr-borshch/"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/oborshch"
+        title = "github.com/oborshch"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/borsch_alex"
+        title = "@borsch_alex"
+
+        [[params.contact.list]]
+        class = "instagram"
+        icon = "fa-instagram"
+        url = "//instagram.com/oleksandr_borsch/"
+        title = "@oleksandr_borsch"
+
+        [[params.contact.list]]
+        class = "youtube"
+        icon = "fa-youtube"
+        url = "//youtube.com/c/coderlog"
+        title = "@CoderLog"
+
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Intermediate"
+
+        [[params.language.list]]
+        language = "Ukraine"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "russian"
+        level = ""
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Work experiences"
+
+        [[params.jobs.list]]
+        position = "Warehouse Management System Specialist "
+        dates = "May 2021 - June 2022 (1 year 1 month)"
+        company = "Аврора Мультимаркет"
+        details = "Administration and revision of Warehouse Management System warehouse logistics systems. G.O.L.D WMS by Symphony RetailAI"
+
+        [[params.jobs.list]]
+        position = "Software Engineer"
+        dates = "April 2017 - February 2021 (3 years 10 months)"
+        company = "ТОВ ТД Интерелектро, UA Pryluky"
+        details = "Administration and revision of Warehouse Management System warehouse logistics systems. Specifically worked with the OHE.WMS solution from ConsID"
+
+        [[params.jobs.list]]
+        position = "WEB development teacher"
+        dates = "Dec 2018 - Jan 2020 (1 year 2 months)"
+        company = "GO-IT Programming School (Pryluky)"
+        details = "Teaching WEB development for children. HTML, CSS, SQL, PHP, Python"
+
+        [[params.jobs.list]]
+        position = "Senior PC operator"
+        dates = "Jun 2015 - Jan 2017 (1 year 8 months)"
+        company = "ТД Ритейл Центр Pryluky"
+        details = "Worked with SAP ERP, SAP BW. Was trained in this system, has a certificate."
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Personal Projects"
+        intro = "This is part of my projects that I have developed and maintain. You can find many of my other projects in my GitHub profile"
+        
+        [[params.projects.list]]
+        title = "RedCat - Community Manager"
+        url = "https://redcat.click"
+        tagline = "The RedCat platform allows you to manage your community in Telegram using chat bots. You no longer need to learn programming or pay someone money to create a chat bot to manage your chat on Telegram."
+        
+        [[params.projects.list]]
+        title = "CoderLog Browser"
+        url = "https://github.com/alexborsch/coderlog-browser"
+        tagline = "Python WEB Browser"
+
+        [[params.projects.list]]
+        title = "Informations chatbots"
+        url = "https://prylukyinfobot.tk/"
+        tagline = "Development of telegram and viber bots. Currently created two informational Telegram bots for the cities of Pryluky, Nizhyn and one viber bot for Pryluky. The audience of chatbots is 1,574 users (Project suspended)"
+
+        [[params.projects.list]]
+        title = "CoderLog"
+        url = "https://coderlog.top"
+        tagline = "The CoderLog project is a blog that includes a website, YouTube channel, and podcast on technology, programming, and life in IT"
+
+    [params.tools]
+        enable = true
+        icon = "fa-laptop"
+        title = "Languages and Tools"
+
+        [[params.tools.list]]
+        badge = "Python"   
+        skill = "Python"
+        style = "flat-square"
+        color = "black"
+        logo = "Python"
+
+        [[params.tools.list]]
+        badge = "Django"   
+        skill = "Django"
+        style = "flat-square"
+        color = "black"
+        logo = "Django"
+
+        [[params.tools.list]]
+        badge = "PHP"   
+        skill = "PHP"
+        style = "flat-square"
+        color = "black"
+        logo = "PHP"
+
+        [[params.tools.list]]
+        badge = "Go"   
+        skill = "Go"
+        style = "flat-square"
+        color = "black"
+        logo = "Go"
+
+        [[params.tools.list]]
+        badge = "HTML5"   
+        skill = "HTML5"
+        style = "flat-square"
+        color = "black"
+        logo = "HTML5"
+
+        [[params.tools.list]]
+        badge = "CSS3"   
+        skill = "CSS3"
+        style = "flat-square"
+        color = "black"
+        logo = "CSS3"
+
+        [[params.tools.list]]
+        badge = "Bootstrap"   
+        skill = "Bootstrap"
+        style = "flat-square"
+        color = "black"
+        logo = "Bootstrap"
+
+        [[params.tools.list]]
+        badge = "MongoDB"   
+        skill = "MongoDB"
+        style = "flat-square"
+        color = "black"
+        logo = "MongoDB"
+
+        [[params.tools.list]]
+        badge = "Redis"   
+        skill = "Redis"
+        style = "flat-square"
+        color = "black"
+        logo = "Redis"
+
+        [[params.tools.list]]
+        badge = "Python"   
+        skill = "Python"
+        style = "flat-square"
+        color = "black"
+        logo = "Python"
+
+        [[params.tools.list]]
+        badge = "Apache"   
+        skill = "Apache"
+        style = "flat-square"
+        color = "black"
+        logo = "Apache"
+
+        [[params.tools.list]]
+        badge = "Nginx"   
+        skill = "Nginx"
+        style = "flat-square"
+        color = "black"
+        logo = "Nginx"
+
+        [[params.tools.list]]
+        badge = "Markdown"   
+        skill = "Markdown"
+        style = "flat-square"
+        color = "black"
+        logo = "Markdown"
+
+        [[params.tools.list]]
+        badge = "GraphQL"   
+        skill = "GraphQL"
+        style = "flat-square"
+        color = "black"
+        logo = "GraphQL"
+
+        [[params.tools.list]]
+        badge = "Linux"   
+        skill = "Linux"
+        style = "flat-square"
+        color = "black"
+        logo = "Linux"
+
+        [[params.tools.list]]
+        badge = "PostgreSQL"   
+        skill = "PostgreSQL"
+        style = "flat-square"
+        color = "black"
+        logo = "PostgreSQL"
+
+        [[params.tools.list]]
+        badge = "MySQL"   
+        skill = "MySQL"
+        style = "flat-square"
+        color = "black"
+        logo = "MySQL"
+
+        [[params.tools.list]]
+        badge = "Heroku"   
+        skill = "Heroku"
+        style = "flat-square"
+        color = "black"
+        logo = "Heroku"
+
+        [[params.tools.list]]
+        badge = "Docker"   
+        skill = "Docker"
+        style = "flat-square"
+        color = "black"
+        logo = "Docker"
+
+        [[params.tools.list]]
+        badge = "DigitalOcean"   
+        skill = "DigitalOcean"
+        style = "flat-square"
+        color = "black"
+        logo = "DigitalOcean"
+
+        [[params.tools.list]]
+        badge = "Python"   
+        skill = "Python"
+        style = "flat-square"
+        color = "black"
+        logo = "Python"
+
+        [[params.tools.list]]
+        badge = "PythAmazon AWSon"   
+        skill = "Amazon%20AWS"
+        style = "flat-square"
+        color = "black"
+        logo = "Amazon-AWS"
+
+        [[params.tools.list]]
+        badge = "Microsoft Azure"   
+        skill = "Microsoft%20Azure"
+        style = "flat-square"
+        color = "black"
+        logo = "Microsoft-Azure"
+
+        [[params.tools.list]]
+        badge = "Google Cloud"   
+        skill = "Google%20Cloud"
+        style = "flat-square"
+        color = "black"
+        logo = "Google-Cloud"
+
+        [[params.tools.list]]
+        badge = "Git"   
+        skill = "Git"
+        style = "flat-square"
+        color = "black"
+        logo = "git"
+
+        [[params.tools.list]]
+        badge = "GitHub"   
+        skill = "GitHub"
+        style = "flat-square"
+        color = "black"
+        logo = "GitHub"
+
+        [[params.tools.list]]
+        badge = "GitLab"   
+        skill = "GitLab"
+        style = "flat-square"
+        color = "black"
+        logo = "GitLab"
+
+        [[params.tools.list]]
+        badge = "BitBucket"   
+        skill = "BitBucket"
+        style = "flat-square"
+        color = "black"
+        logo = "BitBucket"
+
+        [[params.tools.list]]
+        badge = "Raspberry Pi"   
+        skill = "Raspberry%20Pi"
+        style = "flat-square"
+        color = "black"
+        logo = "Raspberry-Pi"
