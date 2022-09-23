@@ -1,7 +1,7 @@
 # Page settings
 baseurl = ""
 languageCode = "en-us"
-title = "Oleksandr Borshch Resume"
+
 theme = "cv"
 #googleAnalytics = "UA-XXXXXXX-Y"
 
@@ -12,12 +12,14 @@ disable404 = true
 [params]
     description = "Oleksandr Borshch Resume"
     author = "Oleksandr Borshch"
-
+    title = "Oleksandr Borshch Resume"
+    github_username = "oborshch"
     # Profile section
     [params.profile]
         name = "Oleksandr Borshch"
         tagline = "Software Engineer"
         avatar = "profile.jpg"
+        
 
     # Contact section
     [params.contact]
@@ -95,6 +97,7 @@ disable404 = true
         language = "russian"
         level = ""
 
+    
     # Experiences section
     [params.experiences]
         enable = true
