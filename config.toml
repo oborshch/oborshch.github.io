@@ -64,8 +64,8 @@ disable404 = true
         [[params.contact.list]]
         class = "twitter"
         icon = "fa-twitter"
-        url = "//twitter.com/borsch_alex"
-        title = "@borsch_alex"
+        url = "//twitter.com/o_borshch"
+        title = "@o_borshch"
 
         [[params.contact.list]]
         class = "instagram"
@@ -141,19 +141,21 @@ disable404 = true
         tagline = "The RedCat platform allows you to manage your community in Telegram using chat bots. You no longer need to learn programming or pay someone money to create a chat bot to manage your chat on Telegram."
         
         [[params.projects.list]]
+        title = "CoderLog"
+        url = "https://coderlog.top"
+        tagline = "The CoderLog project is a blog that includes a website, YouTube channel, and podcast on technology, programming, and life in IT"
+
+        [[params.projects.list]]
         title = "CoderLog Browser"
         url = "https://github.com/alexborsch/coderlog-browser"
         tagline = "Python WEB Browser"
 
         [[params.projects.list]]
-        title = "Informations chatbots"
-        url = "https://prylukyinfobot.tk/"
-        tagline = "Development of telegram and viber bots. Currently created two informational Telegram bots for the cities of Pryluky, Nizhyn and one viber bot for Pryluky. The audience of chatbots is 1,574 users (Project suspended)"
+        title = "DevLite CV Theme for Hugo"
+        url = "https://github.com/oborshch/devlite-cv"
+        tagline = "Portfolio template for Hugo static website generator."
 
-        [[params.projects.list]]
-        title = "CoderLog"
-        url = "https://coderlog.top"
-        tagline = "The CoderLog project is a blog that includes a website, YouTube channel, and podcast on technology, programming, and life in IT"
+        
 
     [params.tools]
         enable = true
